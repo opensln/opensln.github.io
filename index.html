@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>openSln Home Page</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!--	- - - - -bootstrap- - - - --->
+
+	<!--<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
+
+	<!--
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+-->
+
+	<!--	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+
+	<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+	<div id="mainPageContainer">
+		<header id="headerBar" class="">
+			<div id="titlediv" class="titlediv" href="#" style="color:white;text-decoration: none;">
+				<h1><a href="#">openSln</a></h1>
+			</div>
+			<!--		- - - - - - - -Nav Section - - - - --->
+			<nav id="nav">
+
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item mainlink aboutdropdown"><a class="" href="#">ABOUT</a>
+						<div id=aboutInfo class="aboutcontent">For now, this is place to host and share my realisations whilst learning how to code. The table below shows the topic/title, description and link to the page for each learnng point or topic.</div>
+					</li>
+
+					<li class="nav-item mainlink osdropdown"><a href="#">LINKS</a>
+						<div class="osdropdown-content">
+							<a href="https://jsfiddle.net/">jsfiddle.net</a>
+							<a href="https://dotnetfiddle.net/">dotNetfiddle.net</a>
+
+							<a href="https://dotnet.microsoft.com/">.Net Web Site</a>
+						</div>
+					</li>
+				</ul>
+				<!--		  <div id="childDiv"></div>-->
+			</nav>
+
+
+		</header>
+		<hr>
+		<div clear="clearfix"></div>
+
+		<!--	----------------Main Table Sectio Sarts Here----------------->
+
+		<table id="myTable">
+			<colgroup>
+				<col style="width:25%">
+				<col style="width:35%">
+				<col style="width:25%">
+				<col style="width:15%">
+			</colgroup>
+
+			<thead style="background: black;color: aliceblue;text-align: center;">
+				<tr>
+					<th>Topic/Title</th>
+					<th>Description/Process</th>
+					<th>Platform/Technology</th>
+					<th>Link to site</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Creating a CSS graph from user a input.</td>
+					<td>Taking values from input cells and displaying them in a graph.</td>
+					<td>HTML, CSS & JavaScript.</td>
+					<td class="linkBox"><a href="https://rwa.danielsmithldn.com/pointstographtable/pointstographtable.html">Link</a></td>
+				</tr>
+
+
+			</tbody>
+		</table>
+
+		<!--	<div id="testBTN" class="btn btn-primary">Testing Bootstrap</div>-->
+
+		<footer> Copyright 2020 - DanielSmithLDN</footer>
+	</div>
+	<script>
+		$(document).ready(function() {
+			$('#myTable').DataTable();
+		});
+
+	</script>
+</body>
+
+</html>
