@@ -162,6 +162,6 @@ table, tr, td {
 	border: solid black 1px;
 }
 
-.linkBox {
+.idBox, .titleBox, .techBox, .linkBox  {
 	text-align: center;
 }
