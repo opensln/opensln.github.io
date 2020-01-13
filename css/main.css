@@ -198,3 +198,14 @@ td {
 .linkBox {
 	text-align: center;
 }
+
+#toTopButton {
+	text-align: center;
+	font-size: 2rem;
+	
+}
+
+#toTopButton a {
+	text-decoration: none;
+	color: black;
+}
