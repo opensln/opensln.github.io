@@ -202,6 +202,7 @@ td {
 #toTopButton {
 	text-align: center;
 	font-size: 2rem;
+	min-width: 684px;
 	
 }
 
