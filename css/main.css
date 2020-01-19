@@ -10,7 +10,7 @@ body {
 
 #headerBar {
 	position: relative;
-	width: auto;
+	width: 100%;
 	min-width: 756px;
 	height: 60px;
 	background-color: black;
