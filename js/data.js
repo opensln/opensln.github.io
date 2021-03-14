@@ -90,7 +90,7 @@ let entries = [
             titleBox: "Using JavaScript to set HTML Attributes in a Multiple-Choice Quiz",
             description: "Creating multiple-choice quiz questions grouped together by a common class value. Setting the value attribute to \"true\" or \"false\" in relevant to the question group. Creating a function to set the \"name\" attribute to \"redForLater\" if the value is not the correct answer. Creating a function to disable the click function of the buttons once an answer for that group has been submitted. Setting the value of the \"name\" attribute of the correct answers to green. Setting up onclick function calls that pass in the \"this.value\", \"this.id\" and other arguments that allow the code to be more object oriented and share the functions. Creating a function to check the scores. Creating a function to check the value of the score to return an appropriate feedback statement.",
             techBox: "HTML, JavaScript & CSS",
-            linkBox: "<a href=https://rwa.danielsmithldn.com/randomquiz/randomquiz01.html target='_blank'>View the project.</a>"
+            linkBox: "<a href=https://danielsmithldn.com/rwa/randomquiz/randomquiz01.html target='_blank'>View the project.</a>"
         },
 
         {
@@ -178,7 +178,7 @@ let entries = [
             titleBox: "Creating a CSS graph from a user input",
             description: "Taking values from input cells and displaying them in a graph.",
             techBox: "HTML, CSS & JavaScript.",
-            linkBox: "<a href='https://rwa.danielsmithldn.com/pointstographtable/pointstographtable.html' target='_blank'>Site Link</a><br>or<br> <a href='https://next.plnkr.co/edit/RqZLhhszAgKcwm5iXN8l?p=preview&preview' target='_blank'>View the code</a>"
+            linkBox: "<a href='https://danielsmithldn.com/rwa/pointstographtable/pointstographtable.html' target='_blank'>Site Link</a><br>or<br> <a href='https://next.plnkr.co/edit/RqZLhhszAgKcwm5iXN8l?p=preview&preview' target='_blank'>View the code</a>"
         }
 
 ]
